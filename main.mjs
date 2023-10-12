@@ -1,6 +1,6 @@
 import express from "express";
 import morgan from "morgan";
-const bodyParser = require("body-parser");
+import bodyParser from "body-parser";
 import jwt from "jsonwebtoken";
 import { db } from "./db.mjs";
 
